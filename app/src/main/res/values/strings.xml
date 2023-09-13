@@ -4,4 +4,6 @@
     <string name="e_mail">e-mail</string>
     <string name="haslo">hasło</string>
     <string name="powtorz_haslo">powtórz hasło</string>
+    <string name="back">BACK</string>
+    <string name="register">REGISTER</string>
 </resources>

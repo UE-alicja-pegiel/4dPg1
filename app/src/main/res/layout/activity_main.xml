@@ -10,16 +10,21 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="253dp"
+        android:layout_height="196dp"
         android:layout_gravity="center"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/mateusz"
+        android:contentDescription="TODO" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_margin="50dp">
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp">
 
         <EditText
             android:id="@+id/editTextText"
@@ -27,7 +32,9 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/imie"
-            android:inputType="text" />
+            android:inputType="text"
+            android:background="@color/white"
+            android:textSize="30sp"/>
 
         <EditText
             android:id="@+id/editTextTextEmailAddress"
@@ -36,7 +43,9 @@
             android:ems="10"
             android:hint="@string/e_mail"
             android:inputType="textEmailAddress"
-            android:layout_marginTop="40dp"/>
+            android:layout_marginTop="40dp"
+            android:background="@color/white"
+            android:textSize="30sp"/>
 
         <EditText
             android:id="@+id/editTextTextPassword"
@@ -45,7 +54,9 @@
             android:ems="10"
             android:hint="@string/haslo"
             android:inputType="textPassword"
-            android:layout_marginTop="40dp"/>
+            android:layout_marginTop="40dp"
+            android:background="@color/white"
+            android:textSize="30sp"/>
 
         <EditText
             android:id="@+id/editTextTextPassword2"
@@ -54,20 +65,23 @@
             android:ems="10"
             android:hint="@string/powtorz_haslo"
             android:inputType="textPassword"
-            android:layout_marginTop="40dp"/>
+            android:layout_marginTop="40dp"
+            android:background="@color/white"
+            android:textSize="30sp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:textStyle="bold">
 
             <Button
                 android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button"
-                android:layout_gravity="bottom"/>
+                android:text="@string/back"
+                android:layout_gravity="bottom" />
 
             <Space
                 android:layout_width="wrap_content"
@@ -79,7 +93,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button"
+                android:text="@string/register"
                 android:layout_gravity="bottom"/>
         </LinearLayout>
     </LinearLayout>
