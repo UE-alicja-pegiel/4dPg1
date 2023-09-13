@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">4dPg1</string>
+    <string name="imie">Imię</string>
+    <string name="e_mail">e-mail</string>
+    <string name="haslo">hasło</string>
+    <string name="powtorz_haslo">powtórz hasło</string>
 </resources>
